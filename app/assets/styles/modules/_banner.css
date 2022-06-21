@@ -1,0 +1,6 @@
+.banner{
+  background:#fff url('../images/headerStrip.png') no-repeat center;
+  background-size: cover;
+  height: 90px;
+  width: 100%;
+}

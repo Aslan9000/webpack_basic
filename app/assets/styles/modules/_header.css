@@ -1,0 +1,41 @@
+.header{
+  width: 100%;
+
+  &__container{
+    display: grid;
+    grid-template-columns: 300px auto;
+    padding: 10px;
+  }
+
+  &__logo-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0px 10px 15px;
+    
+  }
+
+  &__logo-content{
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  &__nav-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    font-weight: 548;
+    padding: 35px 15px 20px 0;
+  }
+
+  &__nav-link{
+    padding-left: 20px;
+  }
+
+}
+

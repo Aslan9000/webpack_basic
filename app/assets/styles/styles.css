@@ -1,6 +1,7 @@
 @import 'normalize.css';
 @import './base/_global';
 @import './modules/_header';
+@import './modules/_banner';
 
 $activeLink: #9C9999;
 
