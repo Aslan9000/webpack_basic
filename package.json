@@ -1,0 +1,41 @@
+{
+  "name": "webpack_basic",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "autoprefixer": "^10.4.7",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "fs-extra": "^10.1.0",
+    "html-loader": "^3.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss-import": "^14.1.0",
+    "postcss-loader": "^7.0.0",
+    "postcss-mixins": "^9.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "lazysizes": "^5.3.2",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1"
+  }
+}
